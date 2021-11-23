@@ -2,11 +2,37 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Users  from './components/Users';
+import Navbar  from './components/Navbar';
+import Carousel  from './components/Carousel';
+import AboutEr  from './components/AboutEr';
+import Objectivesandfeatures from './components/objectivesandfeatures';
+
+
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <center>
+    <Navbar/>
+    <div className="container my-4 mx-4">
+    <Carousel/>
+    </div>
+    <div className="container my-4 mx-4">
+    <Carousel/>
+    </div>
+    <div className="container my-4 mx-4">
+    <AboutEr/>
+    </div>
+    <div className="container my-4 mx-4">
+    <Objectivesandfeatures/>
+    </div>
+    
+    
+    {/* <Users/> */}
+    </center>
   </React.StrictMode>,
   document.getElementById('root')
 );
