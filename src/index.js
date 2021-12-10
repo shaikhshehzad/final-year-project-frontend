@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Contactus_form from './components/Contactus_form';
 import Online_donation_request from './components/Online_donation_request';
 import Gallery from './components/Gallery';
+import Camp_schedule from './components/Camp_Schedule';
 
 
 
@@ -42,6 +43,7 @@ ReactDOM.render(
     {/* <Users/> */}
     </center>
     <Gallery/>
+    <Camp_schedule/>
 
 
   </React.StrictMode>,
