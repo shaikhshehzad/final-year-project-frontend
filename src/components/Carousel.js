@@ -1,8 +1,13 @@
 import React from "react";
+// import trial from './funcTrial' ;
+
 // import Carousel from 'react-bootstrap/Button'
+// import AboutEr  from './AboutEr';
+{/* <AboutEr/> */}
 
 class Carousel extends React.Component {
-    render() {
+    render() 
+    {
         return(
         <>
         <div className="container mx-10px">
@@ -45,7 +50,7 @@ class Carousel extends React.Component {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-
+{/* <trial/> */}
 
 </div>
         </>

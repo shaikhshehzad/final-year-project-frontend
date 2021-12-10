@@ -98,12 +98,12 @@ class Objectivesandfeatures extends React.Component {
   e-Rakt Kosh has six major components for management of the blood donation life cycle:
   </h3> */}
   <li>  e-Rakt Kosh has six major components for management of the blood donation life cycle:
-    <ul>1</ul>
-    <ul>2</ul>
-    <ul>3</ul>
-    <ul>4</ul>
-    <ul>5</ul>
-    <ul>6</ul>
+    <ul>1 :- The bio metric Donor Management System for identifying, tracking and blocking donors based on donor's health, donation history etc.</ul>
+    <ul>2 :- It provides features such as blood grouping, TTI screening, antibody screening, component preparation etc. as per the defined processes and rules.</ul>
+    <ul>3 :- A centralized Blood Inventory Management System for keeping track of the blood stock across numerous blood banks</ul>
+    <ul>4 :- Bio-Medical Waste Management System for disposal of discarded blood and other waste generated during this process.</ul>
+    <ul>5 :- Generation of rare blood group donor registries and the generation of regular repeat donors</ul>
+    <ul>6 :- Alert and Notification System. </ul>
   </li>
 
 

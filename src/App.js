@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Users from './components/Users';
 
 function App() {
   return (
@@ -11,13 +12,15 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="http://todo-shehzadshaikh.herokuapp.com/"
+          href="https://www.google.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          hahahaha
+          App in development !!
         </a>
       </header>
+
+      <Users count="5" subtitle="Active Users">list of users</Users>
     </div>
   );
 }
