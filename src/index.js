@@ -13,6 +13,7 @@ import Contactus_form from './components/Contactus_form';
 import Online_donation_request from './components/Online_donation_request';
 import Gallery from './components/Gallery';
 import Camp_schedule from './components/Camp_Schedule';
+import Type_donors from './components/Type_donors';
 
 
 
@@ -21,6 +22,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+          <h1>------------------One Nation One Platform--------------------- </h1>
     <App />
     <Online_donation_request/>
     <center>
@@ -44,6 +46,7 @@ ReactDOM.render(
     </center>
     <Gallery/>
     <Camp_schedule/>
+    <Type_donors/>
 
 
   </React.StrictMode>,

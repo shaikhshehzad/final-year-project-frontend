@@ -126,15 +126,8 @@ class Camp_schedule extends React.Component{
     </tr>
   </tbody>
 </table>
-
-
-
             </>
         )
-
-
     }
 }
-
-
 export default Camp_schedule ;
