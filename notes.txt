@@ -2,7 +2,7 @@ Class based Components :-
 the render ensures that the component should behave as a react component
 Function based Components :- 
 
-props :- props a concept in which helps  parent component to pass data to child component 
+props :- props a concept in which helps  parent component to pass data to child component
 
  2  ways 
  1 .as an attribute of element 
@@ -10,3 +10,6 @@ props :- props a concept in which helps  parent component to pass data to child 
   
 
   this will refer to class .
+
+
+
