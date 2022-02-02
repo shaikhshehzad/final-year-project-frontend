@@ -29,9 +29,22 @@ mounting - the component becomes available on the dom
   
   
 updating -  the component gets updated foloowing the user interaction
+
+
+1. getDerivedStateFromProps() - here we set the state data using the data coming from the parent component
+2. shouldComponentUpdate() - returns true or false if true it proceeds further else terminates 
+3. render() -it is used to return the JSX so can see the view on the mount 
+4.getSnapshotBeforeUpdate() -- (here we can update the state from the props)
+                            The getSnapshotBeforeUpdate() method is invoked just before the DOM is being rendered. It is used to store the previous values of the state after the DOM is updated. Any value returned by getSnapshotBeforeUpdate() method will be used as a parameter for componentDidUpdate() method.
+5.ComponentDidMount() -- it's gives a confirmation on component update 
+
    
    
  un-mounting   - Removal from the dom 
+ componentWillUnMount() : it gives an intimation before the component is taken away from the dom
+
+
+                --clear caches and cookies and make API call  etc 
 
 
 
