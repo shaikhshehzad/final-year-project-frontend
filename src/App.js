@@ -12,11 +12,11 @@ import Parent from './components/practice_components/Parent';
 function App() {
   return (
     <div className="App">
-      <Parent AN="15">List of Children </Parent>
 
-      
+      Hi from par-ent
      
-    
+        <Parent AN="15">List of Children </Parent>
+   
     </div>
   );
 }
