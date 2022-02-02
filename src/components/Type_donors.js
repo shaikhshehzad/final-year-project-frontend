@@ -115,6 +115,7 @@ class Type_donors extends React.Component {
                 <div class="accordion-body"><b>How does it work?</b><br /><br />
                 We collect your blood, keep platelet and return rest to you by apheresis donation.
                   <b>
+   
                     <br/>
                     How long does it take?</b><br /><br/>
                     45 minutes to donate.
