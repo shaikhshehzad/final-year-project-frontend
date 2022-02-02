@@ -10,6 +10,28 @@ props :- props a concept in which helps  parent component to pass data to child 
   
 
   this will refer to class .
+  super method is used to call the constructor of the parent class
+
+
+
+  Component Life cycle method has 3  phases 
+
+mounting - the component becomes available on the dom 
+{we merge two objects with the help of spread operator }
+
+1. Constructor() -  can initialise the state of the component 
+2. getDerivedStateFromProps() - here we set the state data using the data coming from the parent component
+3. render() - it is used to return the JSX so can see the view on the mount 
+4. ComponentDidMount() - gives confirmation that the component is available on the DOM
+                        - Can amke api calls to get some data   
+                        - can run some custom logic 
+  
+  
+  
+updating -  the component gets updated foloowing the user interaction
+   
+   
+ un-mounting   - Removal from the dom 
 
 
 
